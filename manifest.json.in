@@ -1,0 +1,15 @@
+{
+    "name": "profusion.mertgor",
+    "description": "profusion convergent application",
+    "architecture": "@CLICK_ARCH@",
+    "title": "profusion",
+    "hooks": {
+        "profusion": {
+            "apparmor": "profusion.apparmor",
+            "desktop":  "profusion.desktop"
+        }
+    },
+    "version": "1.0.0",
+    "maintainer": "Mert Gör <mertgor@masscollabs.com>",
+    "framework" : "ubuntu-sdk-16.04"
+}
